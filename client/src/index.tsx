@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 import RootIndexView from './components/views'
+import './locals/i18n'
 
 ReactDOM.render(
   <React.StrictMode>
